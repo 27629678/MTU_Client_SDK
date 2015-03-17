@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FE3FEFA1AB7F45D00F5098E /* libMailTestUtilSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FE3FEF91AB7F45D00F5098E /* libMailTestUtilSDK.h */; };
+		7FE3FEFC1AB7F45D00F5098E /* libMailTestUtilSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3FEFB1AB7F45D00F5098E /* libMailTestUtilSDK.m */; };
+		7FE3FF021AB7F45D00F5098E /* liblibMailTestUtilSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FE3FF031AB7F45D00F5098E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE3FEEE1AB7F45D00F5098E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE3FEF51AB7F45D00F5098E;
+			remoteInfo = libMailTestUtilSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7FE3FEF41AB7F45D00F5098E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7FE3FEFA1AB7F45D00F5098E /* libMailTestUtilSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibMailTestUtilSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE3FEF91AB7F45D00F5098E /* libMailTestUtilSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libMailTestUtilSDK.h; sourceTree = "<group>"; };
+		7FE3FEFB1AB7F45D00F5098E /* libMailTestUtilSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libMailTestUtilSDK.m; sourceTree = "<group>"; };
+		7FE3FF011AB7F45D00F5098E /* libMailTestUtilSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libMailTestUtilSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE3FF071AB7F45D00F5098E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE3FEF31AB7F45D00F5098E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE3FEFE1AB7F45D00F5098E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE3FF021AB7F45D00F5098E /* liblibMailTestUtilSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FE3FEED1AB7F45D00F5098E = {
+			isa = PBXGroup;
+			children = (
+				7FE3FEF81AB7F45D00F5098E /* libMailTestUtilSDK */,
+				7FE3FF051AB7F45D00F5098E /* libMailTestUtilSDKTests */,
+				7FE3FEF71AB7F45D00F5098E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE3FEF71AB7F45D00F5098E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */,
+				7FE3FF011AB7F45D00F5098E /* libMailTestUtilSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE3FEF81AB7F45D00F5098E /* libMailTestUtilSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7FE3FEF91AB7F45D00F5098E /* libMailTestUtilSDK.h */,
+				7FE3FEFB1AB7F45D00F5098E /* libMailTestUtilSDK.m */,
+			);
+			path = libMailTestUtilSDK;
+			sourceTree = "<group>";
+		};
+		7FE3FF051AB7F45D00F5098E /* libMailTestUtilSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE3FF061AB7F45D00F5098E /* Supporting Files */,
+			);
+			path = libMailTestUtilSDKTests;
+			sourceTree = "<group>";
+		};
+		7FE3FF061AB7F45D00F5098E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FE3FF071AB7F45D00F5098E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE3FEF51AB7F45D00F5098E /* libMailTestUtilSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE3FF0A1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "libMailTestUtilSDK" */;
+			buildPhases = (
+				7FE3FEF21AB7F45D00F5098E /* Sources */,
+				7FE3FEF31AB7F45D00F5098E /* Frameworks */,
+				7FE3FEF41AB7F45D00F5098E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libMailTestUtilSDK;
+			productName = libMailTestUtilSDK;
+			productReference = 7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7FE3FF001AB7F45D00F5098E /* libMailTestUtilSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE3FF0D1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "libMailTestUtilSDKTests" */;
+			buildPhases = (
+				7FE3FEFD1AB7F45D00F5098E /* Sources */,
+				7FE3FEFE1AB7F45D00F5098E /* Frameworks */,
+				7FE3FEFF1AB7F45D00F5098E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE3FF041AB7F45D00F5098E /* PBXTargetDependency */,
+			);
+			name = libMailTestUtilSDKTests;
+			productName = libMailTestUtilSDKTests;
+			productReference = 7FE3FF011AB7F45D00F5098E /* libMailTestUtilSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE3FEEE1AB7F45D00F5098E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "migo Co., Ltd.";
+				TargetAttributes = {
+					7FE3FEF51AB7F45D00F5098E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7FE3FF001AB7F45D00F5098E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FE3FEF11AB7F45D00F5098E /* Build configuration list for PBXProject "libMailTestUtilSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FE3FEED1AB7F45D00F5098E;
+			productRefGroup = 7FE3FEF71AB7F45D00F5098E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE3FEF51AB7F45D00F5098E /* libMailTestUtilSDK */,
+				7FE3FF001AB7F45D00F5098E /* libMailTestUtilSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE3FEFF1AB7F45D00F5098E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE3FEF21AB7F45D00F5098E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE3FEFC1AB7F45D00F5098E /* libMailTestUtilSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE3FEFD1AB7F45D00F5098E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FE3FF041AB7F45D00F5098E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE3FEF51AB7F45D00F5098E /* libMailTestUtilSDK */;
+			targetProxy = 7FE3FF031AB7F45D00F5098E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FE3FF081AB7F45D00F5098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FE3FF091AB7F45D00F5098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE3FF0B1AB7F45D00F5098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7FE3FF0C1AB7F45D00F5098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7FE3FF0E1AB7F45D00F5098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = libMailTestUtilSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FE3FF0F1AB7F45D00F5098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = libMailTestUtilSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE3FEF11AB7F45D00F5098E /* Build configuration list for PBXProject "libMailTestUtilSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE3FF081AB7F45D00F5098E /* Debug */,
+				7FE3FF091AB7F45D00F5098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE3FF0A1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "libMailTestUtilSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE3FF0B1AB7F45D00F5098E /* Debug */,
+				7FE3FF0C1AB7F45D00F5098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FE3FF0D1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "libMailTestUtilSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE3FF0E1AB7F45D00F5098E /* Debug */,
+				7FE3FF0F1AB7F45D00F5098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FE3FEEE1AB7F45D00F5098E /* Project object */;
+}
