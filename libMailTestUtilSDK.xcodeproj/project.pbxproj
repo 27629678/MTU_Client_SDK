@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FE3FEFA1AB7F45D00F5098E /* libMailTestUtilSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FE3FEF91AB7F45D00F5098E /* libMailTestUtilSDK.h */; };
-		7FE3FEFC1AB7F45D00F5098E /* libMailTestUtilSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3FEFB1AB7F45D00F5098E /* libMailTestUtilSDK.m */; };
+		7FE3FEFA1AB7F45D00F5098E /* MTUApi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FE3FEF91AB7F45D00F5098E /* MTUApi.h */; };
+		7FE3FEFC1AB7F45D00F5098E /* MTUApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */; };
 		7FE3FF021AB7F45D00F5098E /* liblibMailTestUtilSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				7FE3FEFA1AB7F45D00F5098E /* libMailTestUtilSDK.h in CopyFiles */,
+				7FE3FEFA1AB7F45D00F5098E /* MTUApi.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +37,11 @@
 
 /* Begin PBXFileReference section */
 		7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibMailTestUtilSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FE3FEF91AB7F45D00F5098E /* libMailTestUtilSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libMailTestUtilSDK.h; sourceTree = "<group>"; };
-		7FE3FEFB1AB7F45D00F5098E /* libMailTestUtilSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libMailTestUtilSDK.m; sourceTree = "<group>"; };
+		7FE3FEF91AB7F45D00F5098E /* MTUApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTUApi.h; sourceTree = "<group>"; };
+		7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTUApi.m; sourceTree = "<group>"; };
 		7FE3FF011AB7F45D00F5098E /* libMailTestUtilSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libMailTestUtilSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE3FF071AB7F45D00F5098E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE3FF101AB8130000F5098E /* MTUObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +84,9 @@
 		7FE3FEF81AB7F45D00F5098E /* libMailTestUtilSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7FE3FEF91AB7F45D00F5098E /* libMailTestUtilSDK.h */,
-				7FE3FEFB1AB7F45D00F5098E /* libMailTestUtilSDK.m */,
+				7FE3FEF91AB7F45D00F5098E /* MTUApi.h */,
+				7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */,
+				7FE3FF101AB8130000F5098E /* MTUObject.h */,
 			);
 			path = libMailTestUtilSDK;
 			sourceTree = "<group>";
@@ -193,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FE3FEFC1AB7F45D00F5098E /* libMailTestUtilSDK.m in Sources */,
+				7FE3FEFC1AB7F45D00F5098E /* MTUApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
