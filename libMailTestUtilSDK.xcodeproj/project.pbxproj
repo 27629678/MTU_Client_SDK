@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FE3FEF51AB7F45D00F5098E /* libMailTestUtilSDK */ = {
+		7FE3FEF51AB7F45D00F5098E /* MailTestUtilSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FE3FF0A1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "libMailTestUtilSDK" */;
+			buildConfigurationList = 7FE3FF0A1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "MailTestUtilSDK" */;
 			buildPhases = (
 				7FE3FEF21AB7F45D00F5098E /* Sources */,
 				7FE3FEF31AB7F45D00F5098E /* Frameworks */,
@@ -122,7 +122,7 @@
 			);
 			dependencies = (
 			);
-			name = libMailTestUtilSDK;
+			name = MailTestUtilSDK;
 			productName = libMailTestUtilSDK;
 			productReference = 7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */;
 			productType = "com.apple.product-type.library.static";
@@ -174,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FE3FEF51AB7F45D00F5098E /* libMailTestUtilSDK */,
+				7FE3FEF51AB7F45D00F5098E /* MailTestUtilSDK */,
 				7FE3FF001AB7F45D00F5098E /* libMailTestUtilSDKTests */,
 			);
 		};
@@ -211,7 +211,7 @@
 /* Begin PBXTargetDependency section */
 		7FE3FF041AB7F45D00F5098E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FE3FEF51AB7F45D00F5098E /* libMailTestUtilSDK */;
+			target = 7FE3FEF51AB7F45D00F5098E /* MailTestUtilSDK */;
 			targetProxy = 7FE3FF031AB7F45D00F5098E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -351,13 +351,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FE3FF0A1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "libMailTestUtilSDK" */ = {
+		7FE3FF0A1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "MailTestUtilSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FE3FF0B1AB7F45D00F5098E /* Debug */,
 				7FE3FF0C1AB7F45D00F5098E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FE3FF0D1AB7F45D00F5098E /* Build configuration list for PBXNativeTarget "libMailTestUtilSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -366,6 +367,7 @@
 				7FE3FF0F1AB7F45D00F5098E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
