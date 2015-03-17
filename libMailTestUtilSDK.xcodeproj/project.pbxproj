@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7FE3FEFA1AB7F45D00F5098E /* MTUApi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FE3FEF91AB7F45D00F5098E /* MTUApi.h */; };
 		7FE3FEFC1AB7F45D00F5098E /* MTUApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */; };
-		7FE3FF021AB7F45D00F5098E /* liblibMailTestUtilSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */; };
+		7FE3FF021AB7F45D00F5098E /* libMailTestUtilSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE3FEF61AB7F45D00F5098E /* libMailTestUtilSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibMailTestUtilSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE3FEF61AB7F45D00F5098E /* libMailTestUtilSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMailTestUtilSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE3FEF91AB7F45D00F5098E /* MTUApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTUApi.h; sourceTree = "<group>"; };
 		7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTUApi.m; sourceTree = "<group>"; };
 		7FE3FF011AB7F45D00F5098E /* libMailTestUtilSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libMailTestUtilSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FE3FF021AB7F45D00F5098E /* liblibMailTestUtilSDK.a in Frameworks */,
+				7FE3FF021AB7F45D00F5098E /* libMailTestUtilSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		7FE3FEF71AB7F45D00F5098E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */,
+				7FE3FEF61AB7F45D00F5098E /* libMailTestUtilSDK.a */,
 				7FE3FF011AB7F45D00F5098E /* libMailTestUtilSDKTests.xctest */,
 			);
 			name = Products;
@@ -124,7 +124,7 @@
 			);
 			name = MailTestUtilSDK;
 			productName = libMailTestUtilSDK;
-			productReference = 7FE3FEF61AB7F45D00F5098E /* liblibMailTestUtilSDK.a */;
+			productReference = 7FE3FEF61AB7F45D00F5098E /* libMailTestUtilSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7FE3FF001AB7F45D00F5098E /* libMailTestUtilSDKTests */ = {
