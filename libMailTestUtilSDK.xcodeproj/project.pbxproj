@@ -10,6 +10,7 @@
 		7FE3FEFA1AB7F45D00F5098E /* MTUApi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FE3FEF91AB7F45D00F5098E /* MTUApi.h */; };
 		7FE3FEFC1AB7F45D00F5098E /* MTUApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */; };
 		7FE3FF021AB7F45D00F5098E /* libMailTestUtilSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE3FEF61AB7F45D00F5098E /* libMailTestUtilSDK.a */; };
+		7FEC97D01AB82A3800A58294 /* MTUVersionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC97CF1AB82A3800A58294 /* MTUVersionInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		7FE3FF011AB7F45D00F5098E /* libMailTestUtilSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libMailTestUtilSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE3FF071AB7F45D00F5098E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FE3FF101AB8130000F5098E /* MTUObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUObject.h; sourceTree = "<group>"; };
+		7FEC97CE1AB82A3800A58294 /* MTUVersionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUVersionInfo.h; sourceTree = "<group>"; };
+		7FEC97CF1AB82A3800A58294 /* MTUVersionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTUVersionInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				7FE3FEF91AB7F45D00F5098E /* MTUApi.h */,
 				7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */,
 				7FE3FF101AB8130000F5098E /* MTUObject.h */,
+				7FEC97CE1AB82A3800A58294 /* MTUVersionInfo.h */,
+				7FEC97CF1AB82A3800A58294 /* MTUVersionInfo.m */,
 			);
 			path = libMailTestUtilSDK;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FE3FEFC1AB7F45D00F5098E /* MTUApi.m in Sources */,
+				7FEC97D01AB82A3800A58294 /* MTUVersionInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  MTUApi.h
+//  MTUVersionInfo.h
 //  libMailTestUtilSDK
 //
 //  Created by H-YXH on 3/17/15.
@@ -7,11 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MTUObject.h"
 
-@interface MTUApi : NSObject
+@interface MTUVersionInfo : NSObject
 
-
-+ (NSString *)getApiVersion;
++ (NSString *)sdkVersion;
 
 @end
