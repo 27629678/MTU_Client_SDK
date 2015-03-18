@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MTUApi.h"
 
 @interface MTUApiManager : NSObject
+
+@property (nonatomic, strong) NSString* appID;
 
 + (instancetype)defaultManager;
 
@@ -21,5 +24,13 @@
 - (BOOL)openMailClient;
 
 - (NSError *)updateApp:(NSString *)appID testID:(NSString *)testID;
+
+- (BOOL)isMailClientApp;
+
+- (BOOL)handleUrl:(NSURL *)url delegate:(id<MTUApiDeleagte>)delegate;
+
+- (BOOL)sendReq:(MTUBaseReq *)request;
+
+- (BOOL)sendResp:(MTUBaseResp *)response;
 
 @end

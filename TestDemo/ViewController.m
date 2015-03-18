@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [MTUApi registerApp:@"test_util_client"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -56,6 +58,10 @@
 }
 
 - (IBAction)openMailMasterAction:(id)sender {
-    [MTUApi openMailMaster];
+//    [MTUApi openMailMaster];
+    
+    
+    MTUCurrentConfigReq* request = [[MTUCurrentConfigReq alloc] init];
+    [MTUApi sendReq:request];
 }
 @end

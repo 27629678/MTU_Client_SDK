@@ -40,4 +40,19 @@
     return [[MTUApiManager defaultManager] updateApp:open testID:test];
 }
 
++ (BOOL)handleOpenURL:(NSURL *)url delegate:(id<MTUApiDeleagte>)delegate
+{
+    return [[MTUApiManager defaultManager] handleUrl:url delegate:delegate];
+}
+
++ (BOOL)sendReq:(MTUBaseReq *)req
+{
+    return [[MTUApiManager defaultManager] sendReq:req];
+}
+
++ (BOOL)sendResp:(MTUBaseResp *)resp
+{
+    return [[MTUApiManager defaultManager] sendResp:resp];
+}
+
 @end

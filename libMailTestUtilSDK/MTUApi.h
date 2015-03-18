@@ -9,8 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "MTUObject.h"
 
-@interface MTUApi : NSObject
+@protocol MTUApiDeleagte <NSObject>
 
+- (void)onReceiveRequest:(MTUBaseReq *)request;
+- (void)onReceiveResponse:(MTUBaseResp *)response;
+
+@end
+
+@interface MTUApi : NSObject
 
 + (BOOL)registerApp:(NSString *)appID;
 
@@ -22,4 +28,12 @@
 
 + (NSError *)updateOpenAppUrlScheme:(NSString *)open
                       testUrlScheme:(NSString *)test;
+
++ (BOOL)handleOpenURL: (NSURL *)url
+             delegate: (id<MTUApiDeleagte>)delegate;
+
++ (BOOL)sendReq:(MTUBaseReq *)req;
+
++ (BOOL)sendResp:(MTUBaseResp *)resp;
+
 @end
