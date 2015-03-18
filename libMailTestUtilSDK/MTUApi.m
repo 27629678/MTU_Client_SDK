@@ -7,7 +7,6 @@
 //
 
 #import "MTUApi.h"
-#import "MTUVersionInfo.h"
 
 @interface MTUApi ()
 
@@ -17,7 +16,7 @@
 
 + (NSString *)getApiVersion
 {
-    return [MTUVersionInfo sdkVersion];
+    return nil;
 }
 
 @end
