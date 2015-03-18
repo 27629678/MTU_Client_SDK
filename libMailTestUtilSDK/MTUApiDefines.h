@@ -6,8 +6,9 @@
 //  Copyright (c) 2015 migo Co., Ltd. All rights reserved.
 //
 
-#ifndef libMailTestUtilSDK_MTUApiDefines_h
-#define libMailTestUtilSDK_MTUApiDefines_h
+#define kApiMailClientOpenUrlScheme (@"mailmaster")
+#define kApiMailClientTestUrlScheme (@"mailmastertest")
+#define kApiMailClientApiParam (@"product=mail")
 
+#define kApiMTUVersion (@"1.0.0")                               // SDK版本号
 
-#endif

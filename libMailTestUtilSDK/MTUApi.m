@@ -7,6 +7,7 @@
 //
 
 #import "MTUApi.h"
+#import "MTUApiManager.h"
 
 @interface MTUApi ()
 
@@ -14,9 +15,29 @@
 
 @implementation MTUApi
 
-+ (NSString *)getApiVersion
++ (BOOL)registerApp:(NSString *)appID
 {
-    return nil;
+    return [[MTUApiManager defaultManager] registerApp:appID];
+}
+
++ (BOOL)isMailMasterInstalled
+{
+    return [[MTUApiManager defaultManager] isMailClientInstalled];
+}
+
++ (BOOL)isMailMasterSupportApi
+{
+    return [[MTUApiManager defaultManager] isMailClientSupportApi];
+}
+
++ (BOOL)openMailMaster
+{
+    return [[MTUApiManager defaultManager] openMailClient];
+}
+
++ (NSError *)updateOpenAppUrlScheme:(NSString *)open testUrlScheme:(NSString *)test
+{
+    return [[MTUApiManager defaultManager] updateApp:open testID:test];
 }
 
 @end

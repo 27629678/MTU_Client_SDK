@@ -12,6 +12,14 @@
 @interface MTUApi : NSObject
 
 
-+ (NSString *)getApiVersion;
++ (BOOL)registerApp:(NSString *)appID;
 
++ (BOOL)isMailMasterInstalled;
+
++ (BOOL)isMailMasterSupportApi;
+
++ (BOOL)openMailMaster;
+
++ (NSError *)updateOpenAppUrlScheme:(NSString *)open
+                      testUrlScheme:(NSString *)test;
 @end

@@ -16,6 +16,12 @@
 		7F47805A1AB90F7800463417 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4780581AB90F7800463417 /* LaunchScreen.xib */; };
 		7F4780661AB90F7800463417 /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4780651AB90F7800463417 /* TestDemoTests.m */; };
 		7F47806D1AB90FF600463417 /* libMailTestUtilSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE3FEF61AB7F45D00F5098E /* libMailTestUtilSDK.a */; };
+		7F4780741AB912E400463417 /* MTUApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4780731AB912E400463417 /* MTUApiManager.m */; };
+		7F4780751AB912E400463417 /* MTUApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4780731AB912E400463417 /* MTUApiManager.m */; };
+		7F4780861AB924DF00463417 /* NSError+MTUExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4780851AB924DF00463417 /* NSError+MTUExt.m */; };
+		7F4780871AB924DF00463417 /* NSError+MTUExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4780851AB924DF00463417 /* NSError+MTUExt.m */; };
+		7F47808A1AB9260900463417 /* MTUErrorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4780891AB9260900463417 /* MTUErrorUtil.m */; };
+		7F47808B1AB9260900463417 /* MTUErrorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4780891AB9260900463417 /* MTUErrorUtil.m */; };
 		7FE3FEFA1AB7F45D00F5098E /* MTUApi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FE3FEF91AB7F45D00F5098E /* MTUApi.h */; };
 		7FE3FEFC1AB7F45D00F5098E /* MTUApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */; };
 		7FE3FF021AB7F45D00F5098E /* libMailTestUtilSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE3FEF61AB7F45D00F5098E /* libMailTestUtilSDK.a */; };
@@ -67,6 +73,12 @@
 		7F4780641AB90F7800463417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4780651AB90F7800463417 /* TestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoTests.m; sourceTree = "<group>"; };
 		7F4780711AB910BB00463417 /* MTUApiDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUApiDefines.h; sourceTree = "<group>"; };
+		7F4780721AB912E400463417 /* MTUApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUApiManager.h; sourceTree = "<group>"; };
+		7F4780731AB912E400463417 /* MTUApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTUApiManager.m; sourceTree = "<group>"; };
+		7F4780841AB924DF00463417 /* NSError+MTUExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+MTUExt.h"; sourceTree = "<group>"; };
+		7F4780851AB924DF00463417 /* NSError+MTUExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+MTUExt.m"; sourceTree = "<group>"; };
+		7F4780881AB9260900463417 /* MTUErrorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTUErrorUtil.h; path = libMailTestUtilSDK/ApiManager/MTUErrorUtil.h; sourceTree = SOURCE_ROOT; };
+		7F4780891AB9260900463417 /* MTUErrorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTUErrorUtil.m; path = libMailTestUtilSDK/ApiManager/MTUErrorUtil.m; sourceTree = SOURCE_ROOT; };
 		7FE3FEF61AB7F45D00F5098E /* libMailTestUtilSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMailTestUtilSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE3FEF91AB7F45D00F5098E /* MTUApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTUApi.h; sourceTree = "<group>"; };
 		7FE3FEFB1AB7F45D00F5098E /* MTUApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTUApi.m; sourceTree = "<group>"; };
@@ -153,6 +165,10 @@
 		7F47806E1AB9105500463417 /* ApiManager */ = {
 			isa = PBXGroup;
 			children = (
+				7F4780721AB912E400463417 /* MTUApiManager.h */,
+				7F4780731AB912E400463417 /* MTUApiManager.m */,
+				7F4780881AB9260900463417 /* MTUErrorUtil.h */,
+				7F4780891AB9260900463417 /* MTUErrorUtil.m */,
 			);
 			path = ApiManager;
 			sourceTree = "<group>";
@@ -160,6 +176,8 @@
 		7F47806F1AB9105500463417 /* ApiObject */ = {
 			isa = PBXGroup;
 			children = (
+				7F4780841AB924DF00463417 /* NSError+MTUExt.h */,
+				7F4780851AB924DF00463417 /* NSError+MTUExt.m */,
 			);
 			path = ApiObject;
 			sourceTree = "<group>";
@@ -392,6 +410,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FE3FEFC1AB7F45D00F5098E /* MTUApi.m in Sources */,
+				7F4780861AB924DF00463417 /* NSError+MTUExt.m in Sources */,
+				7F4780741AB912E400463417 /* MTUApiManager.m in Sources */,
+				7F47808A1AB9260900463417 /* MTUErrorUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +420,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F47808B1AB9260900463417 /* MTUErrorUtil.m in Sources */,
+				7F4780871AB924DF00463417 /* NSError+MTUExt.m in Sources */,
+				7F4780751AB912E400463417 /* MTUApiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
